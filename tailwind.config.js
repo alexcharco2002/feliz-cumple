@@ -1,0 +1,60 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  darkMode: 'class',
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        'accent': '#8C711E',
+        'gold-trim': '#D4AF37',
+        'gold-light': '#FDF4DC',
+        'blush': '#FCE7F3',
+        'rose-glow': '#F472B6',
+        'parchment': '#FFFDF9',
+        'envelope-flap-bg': '#F8EFEA',
+        'ticket-bg': '#FCF6EC',
+        'seal-red': '#851E36',
+        'success-text': '#047857',
+        'light-primary': '#4A2035',
+        'light-on-primary': '#FFFFFF',
+        'light-surface': '#FDF8F5',
+        'light-on-surface': '#2D1B24',
+        'light-surface-card': '#FFFFFF',
+        'light-surface-card-subtle': '#FFF1F2',
+        'light-border-subtle': '#EADCD4',
+        'light-text-muted': '#5E4651',
+        'dark-primary': '#F472B6',
+        'dark-on-primary': '#280A1A',
+        'dark-surface': '#0F0B14',
+        'dark-on-surface': '#F8FAFC',
+        'dark-surface-card': '#1C1425',
+        'dark-surface-card-subtle': '#2A1E38',
+        'dark-border-subtle': '#3B2A4E',
+        'dark-text-muted': '#C4B5D0',
+      },
+      fontFamily: {
+        'display': ['"Playfair Display"', 'serif'],
+        'headline': ['"Playfair Display"', 'serif'],
+        'handwritten': ['"Caveat"', 'cursive'],
+        'body': ['"Plus Jakarta Sans"', 'sans-serif'],
+        'label': ['"Plus Jakarta Sans"', 'sans-serif'],
+      },
+      borderRadius: {
+        'sm': '6px',
+        'DEFAULT': '12px',
+        'md': '16px',
+        'lg': '20px',
+        'xl': '24px',
+        'full': '9999px',
+      },
+      transitionTimingFunction: {
+        'envelope-unseal': 'cubic-bezier(0.16, 1, 0.3, 1)',
+        'card-flip': 'cubic-bezier(0.4, 0, 0.2, 1)',
+      }
+    },
+  },
+  plugins: [],
+}

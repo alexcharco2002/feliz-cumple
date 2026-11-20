@@ -1,7 +1,7 @@
 export const celebrationData = {
   recipient: "Magaly",
   sender: "Jeferson",
-  dateText: "18 de Noviembre • Una Celebración Eterna",
+  dateText: "20 de Noviembre • Una Celebración Eterna",
   editionTag: "NFC Gift Card Connected • Starlight Edition",
   
   hero: {

@@ -15,7 +15,7 @@ export default function Footer() {
         Creado con cariño por {celebrationData.sender} para {celebrationData.recipient}
       </p>
       <p className="font-label text-xs sm:text-sm text-light-text-muted dark:text-dark-text-muted mt-1 tracking-wide">
-        18 DE NOVIEMBRE • EL DÍA QUE EL MUNDO SE PUSO MÁS BONITO
+        20 DE NOVIEMBRE • EL DÍA QUE EL MUNDO SE PUSO MÁS BONITO
       </p>
     </footer>
   );
